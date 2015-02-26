@@ -14,7 +14,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 An identity provider MUST NOT be annotated with the academia entity category unless it is being operated by or behalf of and by contract with an organization represented by a legal entity in good standing in the community of other academic institutions and fulfills at least one of the criteria below:
 
-1. the organization is dedicated to education and research and which grants academic degrees at the first stage or above according to the Bologna Process [Bologna] or equivalent internationally recognized structure of academic degrees.
+1. the organization is dedicated to education and research and which grants academic degrees at level 6 (or higher) according to ISCED 2011 [ISCED] or equivalent internationally recognized academic degree levels.
 2. the organization is a research library or archive
 3. the organzation is primarily dedicated to conducting research
 4. the organization is a teaching hospital
@@ -35,7 +35,7 @@ By asserting an Identity Provider to be a member of the academia entity category
 5. References
 -------------------
 
-[Bologna] http://www.wes.org/ewenr/03Sept/BolognaGlossary.htm#degreestructure
+[ISCED] ISCED 2011, http://www.uis.unesco.org/ISCED
 
 [AcademicInstitutionWikipedia] http://en.wikipedia.org/wiki/Academic_institution
 
