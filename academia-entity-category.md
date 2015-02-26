@@ -12,7 +12,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 2. Definition
 ----------------
 
-An indentity provider that is being operated by or behalf of and by contract with an organization represented by a legal entity in good standing in the community of other academic institutions which fulfills at least one of the criteria below:
+An identity provider MUST NOT be annotated with the academia entity category unless it is being operated by or behalf of and by contract with an organization represented by a legal entity in good standing in the community of other academic institutions and fulfills at least one of the criteria below:
 
 1. the organization is dedicated to education and research and which grants academic degrees at the first stage or above according to the Bologna Process [Bologna] or equivalent internationally recognized structure of academic degrees.
 2. the organization is a research library or archive
