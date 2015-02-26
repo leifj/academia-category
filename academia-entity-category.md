@@ -23,17 +23,22 @@ An identity provider MUST NOT be annotated with the academia entity category unl
 Note that the funding mechanism (private, public or mixed) is not a factor in the definition of an academic institution. For instance, privately funded research institutions are eligible for the entity category if they fulfill at least one of the criteria above.
 
 3. Syntax
--------------
+---------
 
 The following URI is used as the attribute value for the Entity Category and Entity Category Support attribute: http://refeds.org/category/academia
 
 4. Semantics
-------------------
+------------
 
-By asserting an Identity Provider to be a member of the academia entity category a registrar claims that the Identity Provider fulfils the criteria described above in the jurisdiction of the registrar.
+By asserting an Identity Provider to be a member of the academia entity category a registrar claims that the Identity Provider fulfils the criteria described above in the jurisdiction of the registrar. The intended use for the Entity Category is twofold:
+
+- To allow identity selectors (eg in a discovery service) to filter on identity providers belonging to academic institutions
+- To allow relying parties an way to decide what value to assign to a claim of the eduPersonScopedAffiliation and eduPersonAffiliation attributes.
+
+Specifically a relying party SHOULD NOT assume that any attriute assertion received from an identity provider with the academia entity category represents a Subject with any particular affiliation to the organization on behalf of which the identity provider is operated.
 
 5. References
--------------------
+-------------
 
 [Bologna] http://www.wes.org/ewenr/03Sept/BolognaGlossary.htm#degreestructure
 
