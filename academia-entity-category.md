@@ -14,11 +14,11 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 An indentity provider that is being operated by or behalf of and by contract with an organization represented by a legal entity in good standing in the community of other academic institutions which fulfills at least one of the criteria below:
 
-(a) the organization is dedicated to education and research and which grants academic degrees at the first stage or above according to the Bologna Process [Bologna] or equivalent internationally recognized structure of academic degrees.
-(b) the organization is a research library or archive
-(c) the organzation is primarily dedicated to conducting research
-(d) the organization is a teaching hospital
-(e) any organization explicitly denoted as an acedemic institution by a goverment entity in the jurisdiction where the claim of being an academic institution is made
+  (a) the organization is dedicated to education and research and which grants academic degrees at the first stage or above according to the Bologna Process [Bologna] or equivalent internationally recognized structure of academic degrees.
+  (b) the organization is a research library or archive
+  (c) the organzation is primarily dedicated to conducting research
+  (d) the organization is a teaching hospital
+  (e) any organization explicitly denoted as an acedemic institution by a goverment entity in the jurisdiction where the claim of being an academic institution is made
 
 Note that the funding mechanism (private, public or mixed) is not a factor in the definition of an academic institution. For instance, privately funded research institutions are eligible for the entity category if they fulfill at least one of the criteria above.
 
