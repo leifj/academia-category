@@ -12,7 +12,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 2. Definition
 ----------------
 
-An identity provider MUST NOT be annotated with the academia entity category unless it is being operated by or behalf of and by contract with an organization represented by a legal entity in good standing in the community of other academic institutions and fulfills at least one of the criteria below:
+An identity provider MUST NOT be annotated with the academia entity category unless it is being operated by, or on behalf of and by contract with, at least one organisation represented by a legal entity in good standing in the community of other academic institutions and fulfills at least one of the criteria below:
 
 1. the organization is dedicated to education and research and which grants academic degrees at the first stage or above according to the Bologna Process [Bologna] or equivalent internationally recognized structure of academic degrees.
 2. the organization is a research library or archive
@@ -32,10 +32,10 @@ The following URI is used as the attribute value for the Entity Category and Ent
 
 By asserting an Identity Provider to be a member of the academia entity category a registrar claims that the Identity Provider fulfils the criteria described above in the jurisdiction of the registrar. The intended use for the Entity Category is twofold:
 
-- To allow identity selectors (eg in a discovery service) to filter on identity providers belonging to academic institutions
+- To allow metadata consumers (eg in a discovery service) to filter on identity providers representing one or more to academic institution
 - To allow relying parties an way to decide what value to assign to a claim of the eduPersonScopedAffiliation and eduPersonAffiliation attributes.
 
-Specifically a relying party SHOULD NOT assume that an attribute assertion received from an identity provider with the academia entity category represents a Subject with any particular affiliation to the organization on behalf of which the identity provider is operated.
+Specifically a relying party SHOULD NOT assume that an attribute assertion received from an identity provider with the academia entity category represents a Subject (as defined in [TBD]) with any particular affiliation to the organization on behalf of which the identity provider is operated. Conversely, the absense of the academia category does not mean that the identity provider does not in fact represent one or more academic institution.
 
 5. References
 -------------
@@ -47,3 +47,5 @@ Specifically a relying party SHOULD NOT assume that an attribute assertion recei
 [EntityCatTypes] Young, I, Johansson, L, and Cantor, S Ed., "The Entity Category SAML Attribute Types", July 2014.
 
 [RFC2119] Bradner, S., "Key words for use in RFCs to Indicate Requirement Levels", BCP 14, RFC 2119, March 1997.
+
+[TBD] insert saml reference here for Subject
