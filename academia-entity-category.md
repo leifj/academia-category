@@ -5,7 +5,7 @@ The Academia Entity Catagory
 1. Overview
 ----------------
 
-Research and Education Federations are encouraged to use the REFEDS Academia Entity Category to annotate such member identity providers that represents academic institutions in order to distinguish them from identity providers that are not able to claim any affiliation with the international research and education community.
+Research and Education Federations are encouraged to use the REFEDS Academia Entity Category to annotate those member identity providers that represent academic institutions, in order to distinguish them from identity providers that are not able to claim any affiliation with the international research and education community.
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119 [RFC2119]. This definition is written in compliance with the Entity Category SAML Entity Metadata Attribute Types specification [EntityCatTypes].
 
@@ -16,11 +16,11 @@ An identity provider MUST NOT be annotated with the academia entity category unl
 
 1. the organization is dedicated to education and research and which grants academic degrees at level 6 (or higher) according to ISCED 2011 [ISCED] or equivalent internationally recognized academic degree levels.
 2. the organization is a research library or archive
-3. the organzation is primarily dedicated to conducting research
+3. the organization is primarily dedicated to conducting research
 4. the organization is a teaching hospital
 5. any organization explicitly denoted as an acedemic institution by a goverment entity in the jurisdiction where the claim of being an academic institution is made
 
-Note that the funding mechanism (private, public or mixed) is not a factor in the definition of an academic institution. For instance, privately funded research institutions are eligible for the entity category if they fulfill at least one of the criteria above.
+Note that the funding mechanism (private, public or mixed) is not a factor in the definition of an academic institution. For instance, privately funded research institutions are eligible for this entity category if they fulfill at least one of the criteria above.
 
 3. Syntax
 ---------
@@ -30,10 +30,10 @@ The following URI is used as the attribute value for the Entity Category and Ent
 4. Semantics
 ------------
 
-By asserting an Identity Provider to be a member of the academia entity category a registrar claims that the Identity Provider fulfils the criteria described above in the jurisdiction of the registrar. The intended use for the Entity Category is twofold:
+By asserting an identity provider to be a member of the academia entity category a registrar claims that the identity provider fulfils the criteria described above in the jurisdiction of the registrar. The intended use for the entity category is twofold:
 
 - To allow identity selectors (eg in a discovery service) to filter on identity providers belonging to academic institutions
-- To allow relying parties an way to decide what value to assign to a claim of the eduPersonScopedAffiliation and eduPersonAffiliation attributes.
+- To allow relying parties to decide what value to attach to recieved claims of eduPersonScopedAffiliation and eduPersonAffiliation attribute values.
 
 Specifically a relying party SHOULD NOT assume that an attribute assertion received from an identity provider with the academia entity category represents a Subject with any particular affiliation to the organization on behalf of which the identity provider is operated.
 
