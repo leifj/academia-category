@@ -35,7 +35,7 @@ By asserting an Identity Provider to be a member of the academia entity category
 - To allow identity selectors (eg in a discovery service) to filter on identity providers belonging to academic institutions
 - To allow relying parties an way to decide what value to assign to a claim of the eduPersonScopedAffiliation and eduPersonAffiliation attributes.
 
-Specifically a relying party SHOULD NOT assume that any attriute assertion received from an identity provider with the academia entity category represents a Subject with any particular affiliation to the organization on behalf of which the identity provider is operated.
+Specifically a relying party SHOULD NOT assume that any attribute assertion received from an identity provider with the academia entity category represents a Subject with any particular affiliation to the organization on behalf of which the identity provider is operated.
 
 5. References
 -------------
