@@ -36,6 +36,9 @@ By asserting an Identity Provider to be a member of the academia entity category
 -------------------
 
 [Bologna] http://www.wes.org/ewenr/03Sept/BolognaGlossary.htm#degreestructure
+
 [AcademicInstitutionWikipedia] http://en.wikipedia.org/wiki/Academic_institution
+
 [EntityCatTypes] Young, I, Johansson, L, and Cantor, S Ed., "The Entity Category SAML Attribute Types", July 2014.
+
 [RFC2119] Bradner, S., "Key words for use in RFCs to Indicate Requirement Levels", BCP 14, RFC 2119, March 1997.
