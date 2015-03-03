@@ -12,7 +12,10 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 2. Definition
 ----------------
 
-An identity provider MUST NOT be annotated with the academia entity category unless it is being operated by, or on behalf of and by contract with, at least one organisation represented by a legal entity in good standing in the community of other academic institutions and fulfills at least one of the criteria below:
+An identity provider MUST NOT be annotated with the academia entity category unless it is being operated
+* by or
+* on behalf of and by contract with
+at least one organisation represented by a legal entity in good standing in the community of other academic institutions and fulfills at least one of the criteria below:
 
 1. the organization is dedicated to education and research and which grants academic degrees at level 6 (or higher) according to ISCED 2011 [ISCED] or equivalent internationally recognized academic degree levels.
 2. the organization is a research library or archive
@@ -32,8 +35,8 @@ The following URI is used as the attribute value for the Entity Category and Ent
 
 By asserting an identity provider to be a member of the academia entity category a registrar claims that the identity provider fulfils the criteria described above in the jurisdiction of the registrar. The intended use for the entity category is twofold:
 
-- To allow metadata consumers (eg in a discovery service) to filter on identity providers representing one or more to academic institution
-- To allow relying parties an way to decide what value to attach to a claim of the eduPersonScopedAffiliation and eduPersonAffiliation attributes.
+- To allow metadata consumers (e.g. a discovery service) to filter on identity providers representing one or more academic institutions
+- To allow relying parties a way to decide how to interpret the values of the eduPersonScopedAffiliation and eduPersonAffiliation attributes.
 
 Specifically a relying party SHOULD NOT assume that an attribute assertion received from an identity provider with the academia entity category represents a Subject (as defined in [TBD]) with any particular affiliation to the organization on behalf of which the identity provider is operated. Conversely, the absense of the academia category does not mean that the identity provider does not in fact represent one or more academic institution.
 
