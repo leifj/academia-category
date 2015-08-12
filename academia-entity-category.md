@@ -21,7 +21,7 @@ at least one organisation represented by a legal entity in good standing in the 
 2. the organization is a research library or archive
 3. the organization is primarily dedicated to conducting research
 4. the organization is a teaching hospital
-5. any organization explicitly denoted as an acedemic institution by a goverment entity in the jurisdiction where the claim of being an academic institution is made
+5. any organization explicitly denoted as an academic institution by a goverment entity in the jurisdiction where the claim of being an academic institution is made
 
 Note that the funding mechanism (private, public or mixed) is not a factor in the definition of an academic institution. For instance, privately funded research institutions are eligible for this entity category if they fulfill at least one of the criteria above.
 
