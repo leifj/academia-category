@@ -38,7 +38,7 @@ By asserting an identity provider to be a member of the academia entity category
 - To allow metadata consumers (e.g. a discovery service) to filter on identity providers representing one or more academic institutions
 - To allow relying parties a way to decide how to interpret the values of the eduPersonScopedAffiliation and eduPersonAffiliation attributes.
 
-Specifically a relying party SHOULD NOT assume that an attribute assertion received from an identity provider with the academia entity category represents a Subject (as defined in [TBD]) with any particular affiliation to the organization on behalf of which the identity provider is operated. Conversely, the absense of the academia category does not mean that the identity provider does not in fact represent one or more academic institution.
+Specifically a relying party SHOULD NOT assume that an attribute assertion received from an identity provider with the academia entity category represents a Subject (as defined in [SAMLCore]) with any particular affiliation to the organization on behalf of which the identity provider is operated. Conversely, the absense of the academia category does not mean that the identity provider does not in fact represent one or more academic institution.
 
 5. References
 -------------
@@ -51,4 +51,4 @@ Specifically a relying party SHOULD NOT assume that an attribute assertion recei
 
 [RFC2119] Bradner, S., "Key words for use in RFCs to Indicate Requirement Levels", BCP 14, RFC 2119, March 1997.
 
-[TBD] insert saml reference here for Subject
+[SAMLCore] S. Cantor et al., "Assertions and Protocols for the OASIS Security Assertion Markup Language (SAML) V2.0", OASIS SSTC, March 2005, Document ID samlcore-2.0-os. See http://www.oasis-open.org/committees/security/.
