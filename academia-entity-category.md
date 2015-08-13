@@ -12,7 +12,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 2. Definition
 ----------------
 
-An identity provider MUST NOT be annotated with the academia entity category unless it is being operated
+In order to be annotated with the Academia Entity Category, an identity provider MUST be operated
 * by or
 * on behalf of and by contract with
 at least one organisation represented by a legal entity in good standing in the community of other academic institutions and fulfills at least one of the criteria below:
