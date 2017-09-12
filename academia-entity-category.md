@@ -43,7 +43,7 @@ Specifically a relying party SHOULD NOT assume that an attribute assertion recei
 5. References
 -------------
 
-[ISCED] ISCED 2011, http://www.uis.unesco.org/ISCED
+[ISCED] ISCED 2011, http://uis.unesco.org/en/topic/international-standard-classification-education-isced
 
 [AcademicInstitutionWikipedia] http://en.wikipedia.org/wiki/Academic_institution
 
