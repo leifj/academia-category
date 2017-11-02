@@ -13,17 +13,17 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 ----------------
 
 An identity provider MUST NOT be annotated with the academia entity category unless the identity provider is being operated by (or on behalf of and by contract with)
-at least one academic organisation. 
+at least one academic institution. 
 
-Such an academic organization MUST be represented by a legal entity in good standing in the community of other academic organization, fulfilling at least one of the criteria below:
+Such an academic organisation MUST be represented by a legal entity in good standing in the community of other academic institution, fulfilling at least one of the criteria below:
 
-1. the organization is dedicated to education and research and which grants academic degrees at level 6 (or higher) according to ISCED 2011 [ISCED] or equivalent internationally recognized academic degree levels.
-2. the organization is a research library or archive
-3. the organization is primarily dedicated to conducting research
-4. the organization is a teaching hospital
-5. any organization explicitly denoted as an academic institution by a government entity in the jurisdiction where the claim of being an academic institution is made
+1. the institution is dedicated to education and research and which grants academic degrees at level 6 (or higher) according to ISCED 2011 [ISCED] or equivalent internationally recognized academic degree levels.
+2. the institution is a research library or archive
+3. the institution is primarily dedicated to conducting research
+4. the institution is a teaching hospital
+5. any institution explicitly denoted as an academic institution by a government entity in the jurisdiction where the claim of being an academic institution is made
 
-Note that the funding mechanism (private, public or mixed) is not a factor in the definition of an academic institution. For instance, privately funded research institutions are eligible for this entity category if they fulfill at least one of the criteria above.
+Note that the funding mechanism (private, public or mixed) is not a factor in the definition of an academic institution. For instance, privately funded research institutions are eligible for this entity category if they fulfil at least one of the criteria above.
 
 3. Syntax
 ---------
@@ -35,10 +35,10 @@ The following URI is used as the attribute value for the Entity Category and Ent
 
 By asserting an identity provider to be a member of the academia entity category a registrar claims that the identity provider fulfils the criteria described above in the jurisdiction of the registrar. The intended use for the entity category is twofold:
 
-- To allow metadata consumers (e.g. a discovery service) to filter on identity providers representing one or more academic institutions
+- To allow metadata consumers (e.g. a discovery service) to filter on identity providers representing one or more academic institutions.
 - To allow relying parties a way to decide how to interpret the values of the eduPersonScopedAffiliation and eduPersonAffiliation attributes.
 
-Specifically a relying party SHOULD NOT assume that an attribute assertion received from an identity provider with the academia entity category represents a Subject (as defined in [SAMLCore]) with any particular affiliation to the organization on behalf of which the identity provider is operated. Conversely, the absense of the academia category does not mean that the identity provider does not in fact represent one or more academic institution.
+Specifically a relying party SHOULD NOT assume that an attribute assertion received from an identity provider with the academia entity category represents a Subject (as defined in [SAMLCore]) with any particular affiliation to the institution on behalf of which the identity provider is operated. Conversely, the absence of the academia category does not mean that the identity provider does not in fact represent one or more academic institution.
 
 5. References
 -------------
