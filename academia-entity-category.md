@@ -45,10 +45,15 @@ Conversely, the absence of the academia category does not mean that the Identity
 When an Identity Provider’s registrar (normally the Identity Provider’s home federation) registers the Identity Provider in the Entity Category, the registrar MUST perform at least the following checks:
 
 5.1 The Identity Provider meets the definition outlined in section 2 above.
+
 5.2 Identity Provider metadata has been submitted to the registrar for publication.
+
 5.3 The Identity Provider meets the following technical criteria: 
+
 5.3.1 The Identity Provider provides a unique mdui:DisplayName in metadata (an english language version xml:lang=”en” is RECOMMENDED).
+
 5.3.2 The mdui:DisplayName accurately reflects the organisation in question.
+
 5.3.3 The Identity Provider releases the eduPersonScopedAffiliation attribute.
 
 Academia Identity Providers MUST resolve issues of non-compliance within a reasonable period of time from when they become aware of the issue. Failure to do so MUST result in revocation of the entity’s membership in the category.
