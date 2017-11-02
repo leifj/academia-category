@@ -20,7 +20,7 @@ Such an academic organisation MUST be represented by a legal entity in good stan
 2. the institution is a teaching hospital working with health professionals studying at level 6 (or higher) according to ISCED 2011 [ISCED] or equivalent internationally recognised academic degree levels .
 3. the institution is a research library or archive.
 4. the institution is primarily dedicated to conducting research.
-5. the institution is explicitly denoted as an academic institution by a government entity in the jurisdiction where the claim of being an academic institution is made.
+5. the institution is explicitly denoted as an academic institution by a government entity government entity or recognised accrediting body in the jurisdiction where the claim of being an academic institution is made.
 
 Note that the funding mechanism (private, public or mixed) is not a factor in the definition of an academic institution. For instance, privately funded research institutions are eligible for this entity category if they fulfil at least one of the criteria above.
 
