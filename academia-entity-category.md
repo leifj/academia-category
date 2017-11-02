@@ -40,7 +40,7 @@ Specifically a relying party SHOULD NOT assume that an attribute assertion recei
 Conversely, the absence of the academia category does not mean that the Identity Provider does not in fact represent one or more academic institutions.
 
 5.  Registration Criteria
-————————————————————————-
+-------------
 
 When an Identity Provider’s registrar (normally the Identity Provider’s home federation) registers the Identity Provider in the Entity Category, the registrar MUST perform at least the following checks:
 
