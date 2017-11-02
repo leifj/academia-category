@@ -12,10 +12,10 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 2. Definition
 ----------------
 
-An identity provider MUST NOT be annotated with the academia entity category unless it is being operated
-* by or
-* on behalf of and by contract with
-at least one organisation represented by a legal entity in good standing in the community of other academic institutions and fulfills at least one of the criteria below:
+An identity provider MUST NOT be annotated with the academia entity category unless the identity provider is being operated by (or on behalf of and by contract with)
+at least one academic organisation. 
+
+Such an academic organization MUST be represented by a legal entity in good standing in the community of other academic organization, fulfilling at least one of the criteria below:
 
 1. the organization is dedicated to education and research and which grants academic degrees at level 6 (or higher) according to ISCED 2011 [ISCED] or equivalent internationally recognized academic degree levels.
 2. the organization is a research library or archive
