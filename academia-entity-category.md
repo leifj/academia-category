@@ -1,5 +1,5 @@
 
-The Academia Entity Catagory
+The Academic Institution Entity Category
 =======================
 
 1. Overview
@@ -28,7 +28,7 @@ Note that the funding mechanism (private, public or mixed) is not a factor in th
 3. Syntax
 ---------
 
-The following URI is used as the attribute value for the Entity Category and Entity Category Support attribute: http://refeds.org/category/academia
+The following URI is used as the attribute value for the Entity Category and Entity Category Support attribute: http://refeds.org/category/academic_institution
 
 4. Semantics
 ------------
