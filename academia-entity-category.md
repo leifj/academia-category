@@ -5,14 +5,14 @@ The Academic Institution Entity Category
 1. Overview
 ----------------
 
-Research and Education Federations are encouraged to use the REFEDS Academia Entity Category to annotate those member Identity Providers that are trusted to assert academically-orientated data about their users, in order to distinguish them from Identity Providers that are not able to claim any affiliation with the international research and education community.
+Research and Education Federations are encouraged to use the REFEDS Academic Institution Entity Category to annotate those member Identity Providers that are trusted to assert academically-orientated data about their users, in order to distinguish them from Identity Providers that are not able to claim any affiliation with the international research and education community.
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119 [RFC2119]. This definition is written in compliance with the Entity Category SAML Entity Metadata Attribute Types specification [EntityCatTypes].
 
 2. Definition
 ----------------
 
-In order to be annotated with the Academia Entity Category, an Identity Provider MUST be managed by (or on behalf of and by contract or other written agreement with) at least one academic institution. 
+In order to be annotated with the Academic Institution Entity Category, an Identity Provider MUST be managed by (or on behalf of and by contract or other written agreement with) at least one academic institution. 
 
 Such an academic organisation MUST be represented by a legal entity in good standing in the community of other academic institutions, fulfilling at least one of the criteria below:
 
@@ -33,16 +33,16 @@ The following URI is used as the attribute value for the Entity Category and Ent
 4. Semantics
 ------------
 
-By asserting that an Identity Provider is a member of the academia entity category a registrar claims that the Identity Provider fulfils the criteria described above in the jurisdiction of the registrar. 
+By asserting that an Identity Provider is a member of the Academic Institution Entity Category a registrar claims that the Identity Provider fulfils the criteria described above in the jurisdiction of the registrar. 
 
-Specifically a relying party SHOULD NOT assume that an attribute assertion received from an Identity Provider with the academia entity category represents a Subject (as defined in [SAMLCore]) with any particular affiliation to the institution on behalf of which the Identity Provider is operated.  eduPersonScopedAffiliation MUST be used to determine the affiliation status of users. 
+Specifically a relying party SHOULD NOT assume that an attribute assertion received from an Identity Provider with the Academic Institution Entity Category represents a Subject (as defined in [SAMLCore]) with any particular affiliation to the institution on behalf of which the Identity Provider is operated.  eduPersonScopedAffiliation MUST be used to determine the affiliation status of users. 
 
-Conversely, the absence of the academia category does not mean that the Identity Provider does not in fact represent one or more academic institutions.
+Conversely, the absence of the Academic Institution Entity Category does not mean that the Identity Provider does not in fact represent one or more academic institutions.
 
 5.  Registration Criteria
 -------------
 
-When an Identity Provider’s registrar (normally the Identity Provider’s home federation) registers the Identity Provider in the Entity Category, the registrar MUST perform at least the following checks:
+When an Identity Provider’s registrar (normally the Identity Provider’s home federation) registers the Identity Provider in the Academic Institution Entity Category, the registrar MUST perform at least the following checks:
 
 5.1 The Identity Provider meets the definition outlined in section 2 above.
 
